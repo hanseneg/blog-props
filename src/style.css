@@ -1,0 +1,110 @@
+* {
+    margin: 0
+}
+
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    color: white;
+}
+
+.headerWords {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 100px;
+    justify-content: space-around;
+}
+
+.header {
+    background-size: 110%;
+    background-position: -50px -250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("https://coursework.vschool.io/content/images/size/w2000/2017/12/home-bg.jpg");
+}
+
+.topLeft{
+    font-size: 20px;
+    margin: 0px 16px 0px 0px;
+    padding: 5px 0px;
+
+}
+
+.navList {
+    list-style: none;
+    display: inline;
+}
+
+li {
+    float: left;
+    padding: 10px 20px;
+    font-size: 12px
+}
+
+.title {
+    font-size: 80px;
+    margin: 0px 0px 8px
+}
+
+.description {
+    font-size: 24px;
+    margin: 10px 0px 0px;
+    font-weight: lighter;
+}
+
+.middle {
+    padding: 200px 0px;
+    text-align: center;
+}
+
+.blog {
+    border-bottom: 1px solid gray;
+}
+
+.blogList {
+    margin: 0px 20px 0px 350px;
+    padding: 15px 15px;
+}
+
+.postTitle {
+    font-size: 36px;
+    margin: 30px 0px 10px
+}
+
+.postSubtitle {
+    font-size: 28px;
+    margin: 0px 0px 10px;
+    font-weight: lighter;
+}
+
+.postInfo {
+    font-size: 18px;
+    margin: 0px 0px 30px;
+    font-style: italic;
+}
+
+.posts {
+    border-bottom: 1px solid gray;
+    width: 65%
+}
+
+.button {
+    margin: 0px 100px 20px 950px;
+    padding: 15px;
+    background-color: teal;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    margin: 80px 15px 0px 0px;
+}
